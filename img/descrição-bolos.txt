@@ -1,0 +1,8 @@
+bolo1= Bolo brigadeiro
+Massa dechocolate com recheio de brigadeiro 
+
+bolo2= Bolo alpino 
+Massa de chocolate com recheio de alpino 
+
+bolo3= Bolo ninho com morango 
+Massa branca com recheio de ninho com morango
