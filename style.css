@@ -1,0 +1,73 @@
+/* FONTES E CONFIGURAÇÕES PADRÃO DO PROJETO */
+
+/* FONTES */
+.fonte-abel {
+   font-family: "Abel", sans-serif;
+}
+
+.fonte-lalezar {
+   font-family: "Lalezar", system-ui;
+}
+
+.fonte-pacifico {
+   font-family: "Pacifico", cursive;
+}
+
+/* PESO */
+.peso-400 {
+   font-weight: 400;
+   font-style: normal;
+}
+
+/* TAMANHOS DAS FONTES */
+.tamanho-20 {
+   font-size: 20px;
+}
+
+.tamanho-40 {
+   font-size: 40px;
+}
+
+.tamanho-60 {
+   font-size: 60px;
+}
+
+/* CORES PADRÃO DO PROJETO */
+
+/* CORES DE TEXTO */
+.texto-branco {
+   color: #ffffff;
+}
+
+.texto-laranja {
+   color: #ffa800;
+}
+
+.texto-preto {
+   color: #2f160b;
+}
+
+/* CORES DE FUNDO */
+.fundo-branco {
+   background-color: #ffffff;
+}
+
+.fundo-cinza {
+   background-color: #d9d9d9;
+}
+
+.fundo-rosa {
+   background-color: #ffe6e6;
+}
+
+.fundo-rosa2 {
+   background-color: #f3d1d1;
+}
+
+.fundo-choco1 {
+   background-color: #514338;
+}
+
+.fundo-choco2 {
+   background-color: #2f160b;
+}

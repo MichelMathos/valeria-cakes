@@ -14,9 +14,11 @@
       <meta name="author" content="Equipe Smart Pro Talents" />
 
       <!-- Fontes do Google -->
-      <link href="https://font.google.com/specimen/Lalezar" rel="stylesheet" type="text/css" />
-      <link href="https://font.google.com/specimen/Pacifico" rel="stylesheet" type="text/css" />
-      <link href="https://font.google.com/specimen/Abel" rel="stylesheet" type="text/css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Abel&family=Lalezar&family=Pacifico&display=swap"
+         rel="stylesheet" />
 
       <!-- Bootstrap CSS v5.2.1 -->
       <link
@@ -25,7 +27,8 @@
          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
          crossorigin="anonymous" />
 
-      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+
       <title>Valeria's Cakes - Confeitaria</title>
    </head>
    <body>
@@ -36,12 +39,12 @@
 
       <!-- Container #2  - Sobre Nós -->
       <section class="sobre">
-         <div class="container-fluid" style="background-color: #ffe6e6">
+         <div class="container-fluid fundo-rosa">
             <div class="row">
-               <h2>Sobre Nós</h2>
+               <h2 class="fonte-pacifico peso-400 tamanho-40 texto-laranja">Sobre Nós</h2>
             </div>
             <div class="row">
-               <h3>BEM VINDOS AO VALERIA CAKE'S</h3>
+               <h3 class="fonte-lalezar peso-400 tamanho-60 texto-preto">BEM VINDOS AO VALERIA CAKE'S</h3>
             </div>
             <div class="row">
                <img class="img-fluid" src="./img/pasta_roll.png" alt="" srcset="" />
@@ -52,13 +55,13 @@
                </div>
                <div class="col">
                   <div class="row">
-                     <h4>
+                     <h4 class="fonte-lalezar peso-400 tamanho-20 texto-preto">
                         Uma ideia temporária em meio a tempos difíceis que se tornou uma marca permanente na arte da
                         confeitaria
                      </h4>
                   </div>
                   <div class="row">
-                     <p>
+                     <p class="fonte-abel peso-400 tamanho-20 texto-preto" style="text-align: justify">
                         Foi em 2020, um dos períodos mais conturbados da humanidade, que Valéria Roberti encontra uma
                         solução de empreendedorismo como forma de sustento à sua família, utilizando habilidades já
                         conhecidas por amigos e familiares, encorajada por acreditar em seu potencial, dá-se início ao
@@ -70,7 +73,7 @@
                      <div class="col">
                         <img src="./img/heart.png" alt="" srcset="" />
                         <div class="row">
-                           <h4>100% SAUDÁVEL</h4>
+                           <h4 class="fonte-lalezar peso-400 tamanho-20 texto-preto">100% SAUDÁVEL</h4>
                         </div>
                         <div class="row">
                            <p>A seleção dos ingredientes passa por uma inspenção rigorosa de qualidade.</p>
@@ -91,10 +94,9 @@
          </div>
       </section>
 
-      <<<<<<< HEAD
       <!-- Container #3 - Produtos e Preços -->
       <section class="produtos">
-         <div class="container-fluid" style="background-color: #ffe6e6">
+         <div class="container-fluid fundo-rosa">
             <div class="row">
                <h2>Produtos e Preços</h2>
             </div>
@@ -106,7 +108,7 @@
             </div>
             <div class="row">
                <div class="col">
-                  <div class="card mb-3" style="max-width: 540px; background-color: #f3d1d1">
+                  <div class="card mb-3 fundo-rosa2" style="max-width: 540px">
                      <div class="row g-0">
                         <div class="col-md-4">
                            <img src="./img/cakes/chocolate_cake.png" class="img-fluid rounded-start" alt="..." />
@@ -119,7 +121,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="card mb-3" style="max-width: 540px; background-color: #f3d1d1">
+                  <div class="card mb-3 fundo-rosa2" style="max-width: 540px">
                      <div class="row g-0">
                         <div class="col-md-4">
                            <img src="./img/cakes/stramberry_cake.png" class="img-fluid rounded-start" alt="..." />
@@ -132,7 +134,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="card mb-3" style="max-width: 540px; background-color: #f3d1d1">
+                  <div class="card mb-3 fundo-rosa2" style="max-width: 540px">
                      <div class="row g-0">
                         <div class="col-md-4">
                            <img src="./img/cakes/passion_fruit_cake.png" class="img-fluid rounded-start" alt="..." />
@@ -147,7 +149,7 @@
                   </div>
                </div>
                <div class="col">
-                  <div class="card mb-3" style="max-width: 540px; background-color: #f3d1d1">
+                  <div class="card mb-3 fundo-rosa2" style="max-width: 540px">
                      <div class="row g-0">
                         <div class="col-md-4">
                            <img src="./img/cakes/wedding_cake.jpeg" class="img-fluid rounded-start" alt="..." />
@@ -162,7 +164,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="card mb-3" style="max-width: 540px; background-color: #f3d1d1">
+                  <div class="card mb-3 fundo-rosa2" style="max-width: 540px">
                      <div class="row g-0">
                         <div class="col-md-4">
                            <img src="./img/cakes/Happy_birthday_cake.jpeg" class="img-fluid rounded-start" alt="..." />
@@ -177,7 +179,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="card mb-3" style="max-width: 540px; background-color: #f3d1d1">
+                  <div class="card mb-3 fundo-rosa2" style="max-width: 540px">
                      <div class="row g-0">
                         <div class="col-md-4">
                            <img src="./img/cakes/thematic_cake.jpeg" class="img-fluid rounded-start" alt="..." />
@@ -200,7 +202,7 @@
 
       <!-- Container #5 - Membros do time -->
       <section class="equipe">
-         <div class="container-fluid">
+         <div class="container-fluid fundo-rosa">
             <div class="row">
                <h2>Membros do time</h2>
             </div>
@@ -215,33 +217,27 @@
                   <div class="col">
                      <div class="card text-bg-dark">
                         <img src="./img/members/member_01.png" class="card-img" alt="..." />
-                        <div
-                           class="card-img-overlay opacity-100"
-                           style="height: 7rem; position: inherit; background-color: #514338">
-                           <h3 class="card-title text-center" style="color: #ffa800">Maria Severina</h3>
-                           <h4 class="card-text text-center" style="color: #ffffff">Boleira</h4>
+                        <div class="card-img-overlay opacity-100 fundo-choco1" style="height: 7rem; position: inherit">
+                           <h3 class="card-title text-center texto-laranja">Maria Severina</h3>
+                           <h4 class="card-text text-center texto branco">Boleira</h4>
                         </div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="card text-bg-dark">
                         <img src="./img/members/member_02.png" class="card-img" alt="..." />
-                        <div
-                           class="card-img-overlay opacity-100"
-                           style="height: 7rem; position: inherit; background-color: #514338">
-                           <h3 class="card-title text-center" style="color: #ffa800">Marisa Felizardo</h3>
-                           <h4 class="card-text text-center" style="color: #ffffff">Confeiteira</h4>
+                        <div class="card-img-overlay opacity-100 fundo-choco1" style="height: 7rem; position: inherit">
+                           <h3 class="card-title text-center texto-laranja">Marisa Felizardo</h3>
+                           <h4 class="card-text text-center texto-branco">Confeiteira</h4>
                         </div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="card text-bg-dark">
                         <img src="./img/members/member_03.png" class="card-img" alt="..." />
-                        <div
-                           class="card-img-overlay opacity-100"
-                           style="height: 7rem; position: inherit; background-color: #514338">
-                           <h3 class="card-title text-center" style="color: #ffa800">Osvaldo Medeiros</h3>
-                           <h4 class="card-text text-center" style="color: #ffffff">Entregador</h4>
+                        <div class="card-img-overlay opacity-100 fundo-choco1" style="height: 7rem; position: inherit">
+                           <h3 class="card-title text-center texto-laranja">Osvaldo Medeiros</h3>
+                           <h4 class="card-text text-center texto-branco">Entregador</h4>
                         </div>
                      </div>
                   </div>
@@ -253,66 +249,6 @@
       <!--container6-->
       <section class="depoimentos"></section>
 
-      =======
-      <!--container4-->
-      <section class="promocao"></section>
-
-      <!-- Container #5 - Membros do time -->
-      <section class="equipe">
-         <div class="container-fluid">
-            <div class="row">
-               <h2>Membros do time</h2>
-            </div>
-            <div class="row">
-               <h3>NOSSA EQUIPE</h3>
-            </div>
-            <div class="row">
-               <img class="img-fluid" src="./img/pasta_roll.png" alt="" srcset="" />
-            </div>
-            <div class="row">
-               <div class="row row-cols-1 row-cols-md-2 g-4">
-                  <div class="col">
-                     <div class="card text-bg-dark">
-                        <img src="./img/members/member_01.png" class="card-img" alt="..." />
-                        <div
-                           class="card-img-overlay opacity-100"
-                           style="height: 7rem; position: inherit; background-color: #514338">
-                           <h3 class="card-title text-center" style="color: #ffa800">Maria Severina</h3>
-                           <h4 class="card-text text-center" style="color: #ffffff">Boleira</h4>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="card text-bg-dark">
-                        <img src="./img/members/member_02.png" class="card-img" alt="..." />
-                        <div
-                           class="card-img-overlay opacity-100"
-                           style="height: 7rem; position: inherit; background-color: #514338">
-                           <h3 class="card-title text-center" style="color: #ffa800">Marisa Felizardo</h3>
-                           <h4 class="card-text text-center" style="color: #ffffff">Confeiteira</h4>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="card text-bg-dark">
-                        <img src="./img/members/member_03.png" class="card-img" alt="..." />
-                        <div
-                           class="card-img-overlay opacity-100"
-                           style="height: 7rem; position: inherit; background-color: #514338">
-                           <h3 class="card-title text-center" style="color: #ffa800">Osvaldo Medeiros</h3>
-                           <h4 class="card-text text-center" style="color: #ffffff">Entregador</h4>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <!--container6-->
-      <section class="depoimentos"></section>
-
-      >>>>>>> 3bf1bc2774f2055adb9fc6825a2cf682d9fc8416
       <!--container7-->
       <footer></footer>
 
