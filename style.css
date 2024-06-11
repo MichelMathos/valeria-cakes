@@ -26,15 +26,314 @@
    height: 80%;
 }
 
+/*header*/
 header {
-   background-color: #ffa800;
+    
+   font-family: "Lalezar", system-ui;
+   font-weight: 400;
+ font-style: normal;
+   background-color: #ffe6e6;
+  
+}
 
+.emailicon {
+   
+   width: 70px;
+   margin-right: 15px;
+   /* Espaçamento entre o ícone e o texto */
+}
+
+.textoemail {
+   
+   display: flex;
+   flex-direction: column;
+   /* Colocar o título e o parágrafo em coluna */
+}
+header, h2,
+p {
+   font-family: "Lalezar", system-ui;
+ font-weight: 400;
+ font-style: normal;
+   margin: 0;
+  }
+
+   .centro, h2 {
+      font-size: 130%;
+   }
+
+header p {
+   font-family: "Abel", sans-serif;
+   font-weight: 400;
+ font-style: normal;
+}
+
+/* logo */
+
+.centro {
+   width: 28%;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   background-color: #ffa800;
+}
+
+.centro2 {
+   justify-content: space-evenly;
+   display: flex;
+   align-items: center;
+   border: solid 2px;
+   border-color: white;
+   width: 95%;
+   height: 75%;
+}
+
+.titulo {
+   color: white;
+}
+
+.logo {
+   height: 100px;
+   width: 100px;
+
+}
+
+.container1 { 
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
    width: 100%;
-   height: 130px;
+   height: 150px;
+}
+
+.email {
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 33%;
+   background-color: #ffe6e6;
+}
+
+
+.telefone {
+   
    display: flex;
    align-items: center;
    justify-content: center;
+   background-color: #ffe6e6;
+   width: 33%;
 }
+
+.container2,
+text {
+   
+   height: 80px;
+   width: 70%;
+   background-color: #514338;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.menu {
+   
+   display: flex;
+   justify-content: center;
+   height: 80px;
+   background-color: #514338;
+}
+
+.cel-icon {
+   
+   width: 70px;
+   margin-right: 15px;
+}
+
+.textocel {
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.header,
+p {
+   
+   font-size: 20px;
+}
+
+/*fimheader*/
+
+/* inicio banner*/
+.banner {
+   display: flex;
+   background-image: url(img/banner.jpg);
+   height: 550px;
+   
+}
+
+.bannertext{ 
+   height: 500px;
+   width: 100%;
+   font-size: 100%;
+   margin-left: 10%;
+   margin-top: 2%;
+}
+
+.bannertext h4{
+   color: #ffa800;
+   font-family: "Pacifico", cursive;
+   font-weight: 400;
+ font-style: normal;
+}
+
+.bannertext h2, h3{
+   color: white;
+   font-family: "Lalezar", system-ui;
+ font-weight: 400;
+ font-style: normal;
+}
+
+.btn-saiba {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffa800;
+color: white;
+   border: solid 2px;
+   height: 75%;
+   width: 90%;
+}
+
+.btn-saiba h5 {
+   color: white;
+   font-size: 150%;
+}
+
+.bordabotao {
+   margin-top: 5%;
+   height: 17%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffa800;
+   width: 15%;
+}
+
+
+.bannertext h4{
+   font-size: 300%;
+   margin: 0;
+}
+
+.bannertext h2{
+   font-size: 580%;
+
+}
+
+.bannertext h3{
+   font-size: 320%;
+}
+
+
+.bannertext h2,
+.bannertext h3 {
+   margin: 0; 
+   line-height: 1; 
+}
+/*fim banner */
+
+/*inicio promos*/
+
+.promo {
+   background-image: url(img/bolobanner2.jpg);
+   background-color: rgba(210, 105, 30, 0.25);
+   flex-wrap: wrap;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   border: solid;
+   width: 100%;
+   height: 500px;
+}
+
+.promotext{
+border: solid;
+}
+
+.botaopromo{
+   margin: 300px;
+   flex-wrap: wrap;
+   width: 200px;
+   height: 80px;
+}
+
+.niver  , .casamento  , .perso {
+   background-color: #ffa800;
+   position: relative;
+}
+
+.niver{
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+   position: absolute;
+   margin-bottom: 23%;
+   border: solid;
+   width: 22%;
+   height: 30%;
+   margin-right: 55%;
+}
+
+.nivertext {
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   display: flex;
+   text-align: center;
+   border: solid 1px;
+   border-color: white;
+   width: 90%;
+   height: auto; 
+   margin: 0; 
+   padding: 20px; 
+}
+
+.nivertext h4,
+.nivertext p {
+   margin: 5px 0;
+   line-height: 1; 
+}
+
+.casamento{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   position: absolute;
+   margin-bottom: 23%;
+   border: solid;
+   width: 22%;
+   height: 30%;
+}
+
+.perso{
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+   position: absolute;
+   margin-bottom: 23%;
+   border: solid;
+   width: 22%;
+   height: 30%;
+   margin-left: 55%;
+}
+
+/*fim promos*/
+
 
 h1 {
    font-family: "Lalezar", system-ui;
