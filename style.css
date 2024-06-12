@@ -245,49 +245,67 @@ color: white;
 /*fim banner */
 
 /*inicio promos*/
+.promoçoes-mobile{
+   display: none;
+}
 
-.promo {
+.promoçoes-desktop {
    background-image: url(img/bolobanner2.jpg);
    background-color: rgba(210, 105, 30, 0.25);
    flex-wrap: wrap;
    display: flex;
    align-items: center;
    justify-content: space-evenly;
-   border: solid;
    width: 100%;
    height: 500px;
 }
 
-.promotext{
-border: solid;
+.promoçao-junina{
+position: absolute;
+color: white;
+font-size: 50px;
 }
 
-.botaopromo{
-   margin: 300px;
+.botao-promoçao{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffa800;
    flex-wrap: wrap;
    width: 200px;
    height: 80px;
+   border: none;
+   margin-top: 300px;
 }
 
-.niver  , .casamento  , .perso {
+.borda-botao-promoçao {
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: solid 1px;
+   border-color: white;
+   width: 95%;
+   height: 85%;
+}
+
+.aniversario , .casamento  , .personalizado {
    background-color: #ffa800;
-   position: relative;
 }
 
-.niver{
+.aniversario{
    justify-content: center;
    align-items: center;
    flex-direction: column;
    display: flex;
    position: absolute;
    margin-bottom: 23%;
-   border: solid;
    width: 22%;
    height: 30%;
    margin-right: 55%;
 }
 
-.nivertext {
+.texto-promoçao-aniversario, .texto-promoçao-casamento, .texto-promoçao-personalizado{
    justify-content: center;
    flex-direction: column;
    align-items: center;
@@ -296,15 +314,33 @@ border: solid;
    border: solid 1px;
    border-color: white;
    width: 90%;
-   height: auto; 
+   height: 85%; 
    margin: 0; 
    padding: 20px; 
 }
 
-.nivertext h4,
-.nivertext p {
+.texto-promoçao-aniversario p, .texto-promoçao-casamento p, .texto-promoçao-personalizado p {
+   font-family: "Abel", sans-serif;
+   font-weight: 400;
+ font-style: normal;
    margin: 5px 0;
    line-height: 1; 
+   color: white;
+}
+
+.texto-promoçao-aniversario h4, .texto-promoçao-casamento h4, .texto-promoçao-personalizado h4 {
+   font-family: "Lalezar", system-ui;
+   font-weight: 400;
+ font-style: normal;
+ color: #2f160b;
+}
+
+.link-promoçoes {
+color: #2f160b;
+font-family: "Abel", sans-serif;
+   font-weight: 400;
+ font-style: normal;
+   margin-top: 10%;
 }
 
 .casamento{
@@ -314,19 +350,17 @@ border: solid;
    flex-direction: column;
    position: absolute;
    margin-bottom: 23%;
-   border: solid;
    width: 22%;
    height: 30%;
 }
 
-.perso{
+.personalizado{
    justify-content: center;
    align-items: center;
    flex-direction: column;
    display: flex;
    position: absolute;
    margin-bottom: 23%;
-   border: solid;
    width: 22%;
    height: 30%;
    margin-left: 55%;
@@ -490,3 +524,4 @@ h1 {
    left: 100px;
    opacity: 0.8; /* Opcional: ajuste da transparência para visualizar sobreposição */
 }
+
