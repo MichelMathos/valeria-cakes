@@ -195,4 +195,40 @@
    .menu li a:hover {
       border: 1px solid #ffa800;
    }
+
+      /*--footer--*/ 
+   .email {
+   width: 25px; 
+   height: 25px; 
+   }
+   .local {
+   width: 35px; 
+   height: 35px; 
+   } 
+   .tell {
+   width: 25px; 
+   height: 25px; 
+   }
+   .insta {
+   width: 25px; 
+   height: 25px; 
+   } 
+   .logo2 {
+   width: 90px;
+   height: 90px; 
+   }
+   .rodape { 
+     
+   background-color: #ffa800; 
+   display: flex; 
+   position: relative; 
+   justify-content: center;
+   align-items: center;
+   width: 100%; 
+   height: 230px;
+   } 
+   footer {
+      background-image: url(img/childrens_cake.png);
+   }
+
 }
