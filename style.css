@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Lalezar&family=Pacifico&display=swap");
 
-
+.footer-mobile, .mobile{
+   display: none;
+}
 
 /* FONTES E CONFIGURAÇÕES PADRÃO DO PROJETO */
 
@@ -105,8 +107,138 @@
    opacity: 0.8; /* Opcional: ajuste da transparência para visualizar sobreposição */
 }
 
+/*footerdetop*/
+.area-footer-desktop{
+   background-color: #2f160b;
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+   width: 100%;
+   height: 300px;
+}
+
+.blocofooter1{
+   background-color: #ffa800;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 27%;
+height: 100%;
+}
+
+.bordabloco1footer{
+   color: white;
+   border: solid 2px ;
+   width: 87%;
+   height: 85%;
+}
+
+
+
+.bordabloco1footer img{
+   margin-top: 5%;
+   margin-left: 5%;
+}
+
+.bordabloco1footer h2{
+   font-family: "lalezar", system-ui;
+   font-weight: 400;
+   font-style: normal;
+font-size: 150%;
+margin-left: 35%;
+width: 70%;
+height: 25%;
+margin-top: -19%;
+color: white;
+}
+
+.bordabloco1footer p{
+   font-family: "abel", system-ui;
+   font-weight: bold;
+   font-style: normal;
+   color: white;
+   margin-left: 5%;
+   font-size: 115%;
+   text-align: center;
+   width: 90%;
+}
+
+.blocofooter2 {
+   width: 26%;
+height: 80%;
+margin-top: 2%;
+}
+
+.blocofooter2 p{
+   margin: 6px 0; 
+   font-family: "abel", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   color: white;
+   font-size: 118%;
+}
+
+.blocofooter2 h2{
+   color: #ffa800;
+   font-family: "lalezar", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 200%;
+}
+
+.blocofooter3{
+   width: 25%;
+height: 80%;
+margin-top: 2%;
+}
+
+
+   .blocofooter3 p {
+      margin: 5px 0; 
+   }
+   
+
+.blocofooter3 a{
+   font-family: "abel", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   color: white;
+   text-decoration: none;
+   font-size: 120%;
+}
+
+.blocofooter3 h2{
+   color: #ffa800;
+   font-family: "lalezar", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 200%;
+}
+
+.desenvolvido{
+   font-family: "abel", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   width: 300px;
+   height: 30px;
+   position: absolute;
+   margin-top: -31px;
+   margin-left: 1000px;
+
+}
+
+/*footerdetop*/
+
 /*--area mobile--*/ 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 932px){
+
+   .footer-desktop, #desktop{
+      display: none;
+   }
+   .footer-mobile, .mobile{
+      display: block;
+   }
+
    .logo {
       width: 80px;
       height: 80px;
@@ -133,7 +265,7 @@
       height: 80%;
    }
    
-   header {
+   .mobile {
       background-color: #ffa800;
    
       width: 100%;
@@ -195,40 +327,108 @@
    .menu li a:hover {
       border: 1px solid #ffa800;
    }
-
-      /*--footer--*/ 
-   .email {
-   width: 25px; 
-   height: 25px; 
-   }
-   .local {
-   width: 35px; 
-   height: 35px; 
-   } 
-   .tell {
-   width: 25px; 
-   height: 25px; 
-   }
-   .insta {
-   width: 25px; 
-   height: 25px; 
-   } 
+ /*--footer--*/ 
+ 
    .logo2 {
    width: 90px;
    height: 90px; 
    }
-   .rodape { 
-     
+
+   
+   .bloco1-footer-mobile { 
    background-color: #ffa800; 
-   display: flex; 
-   position: relative; 
+   display: flex;  
    justify-content: center;
    align-items: center;
    width: 100%; 
-   height: 230px;
+   height: 280px;
    } 
-   footer {
-      background-image: url(img/childrens_cake.png);
+.borda-bloco1 {
+   border: solid;
+   border-color: white;
+   width: 95%;
+   height: 90%;
+}
+.logo-texto-rodape{
+   width: 70%;
+   float: inline-end;
+   margin-top: -10%;
+   color: white;
+   position: absolute;
+   margin-left: 25%;
+}
+
+.logo-texto-rodape h2{
+   text-align: center;
+font-size: 150%;
+font-family: "Lalezar", system-ui;
+      font-weight: 400;
+      font-style: normal;
+}
+
+.borda-bloco1 p{
+   color: white;
+   text-align: center;
+   width: 100%;
+
+   margin-left: 5%;
+padding: 30px;
+font-family: "abel", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      font-weight: bolder;
+}
+
+.rodape2 h2{
+ color: #ffa800;
+ font-family: "Lalezar", system-ui;
+      font-weight: 400;
+      font-style: normal;
+}
+.rodape2 p{
+   font-family: "abel", system-ui;
+      font-weight: 400;
+      font-style: normal;
+   color: white;
+   margin: 5px 0;
+
+}
+
+
+
+.rodape3 a{
+   font-family: "abel", system-ui;
+      font-weight: 400;
+      font-style: normal;
+color: white;
+   margin-left: 7px;
+   text-decoration: none;
+}
+
+.rodape3 h2{
+   font-family: "Lalezar", system-ui;
+      font-weight: 400;
+      font-style: normal;
+   color: #ffa800;
+   margin-left: 7px;
+}
+
+   .footer-mobile {
+      background-color: #2f160b;
+      width: 100%;
+      height: 750px;
    }
+
+ .bordinha{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   font-size: 70%;
+   background-color: #2f160b;
+   width: 100%;
+   height:60px ;
+ }
+   
+   
 
 }
