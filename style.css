@@ -4,6 +4,401 @@
    display: none;
 }
 
+
+/*header-desktop*/
+#desktop {
+    
+   font-family: "Lalezar", system-ui;
+   font-weight: 400;
+ font-style: normal;
+   background-color: #ffe6e6;
+}
+
+.emailicon {
+   
+   width: 70px;
+   margin-right: 15px;
+   /* Espaçamento entre o ícone e o texto */
+}
+
+.textoemail {
+   
+   display: flex;
+   flex-direction: column;
+   /* Colocar o título e o parágrafo em coluna */
+}
+#desktop h2 p {
+   font-family: "Lalezar", system-ui;
+ font-weight: 400;
+ font-style: normal;
+   margin: 0;
+  }
+
+   .centro h2 {
+      font-size: 130%;
+   }
+
+#desktop p {
+   font-family: "Abel", sans-serif;
+   font-weight: 400;
+ font-style: normal;
+}
+
+/* logo */
+
+.centro {
+   width: 28%;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   background-color: #ffa800;
+}
+
+.centro2 {
+   justify-content: space-evenly;
+   display: flex;
+   align-items: center;
+   border: solid 2px;
+   border-color: white;
+   width: 95%;
+   height: 75%;
+}
+
+.titulo {
+   color: white;
+}
+
+.logo {
+   height: 100px;
+   width: 100px;
+
+}
+
+.container1 { 
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+   width: 100%;
+   height: 150px;
+}
+
+.email {
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 33%;
+   background-color: #ffe6e6;
+}
+
+
+.telefone {
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #ffe6e6;
+   width: 33%;
+}
+
+.container2,
+text {
+   
+   height: 80px;
+   width: 70%;
+   background-color: #514338;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.menu-desktop{
+   
+   display: flex;
+   justify-content: center;
+   height: 80px;
+   background-color: #514338;
+}
+
+.cel-icon {
+   
+   width: 70px;
+   margin-right: 15px;
+}
+
+.textocel {
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#desktop
+p {
+   
+   font-size: 20px;
+}
+
+/*fimheader-desktop*/
+
+/* inicio banner*/
+.banner {
+   display: flex;
+   background-image: url(img/banner.jpg);
+   height: 550px;
+   
+}
+
+.bannertext{ 
+   height: 500px;
+   width: 100%;
+   font-size: 100%;
+   margin-left: 10%;
+   margin-top: 2%;
+}
+
+.bannertext h4{
+   color: #ffa800;
+   font-family: "Pacifico", cursive;
+   font-weight: 400;
+ font-style: normal;
+}
+
+.bannertext h2 h3{
+   color: white;
+   font-family: "Lalezar", system-ui;
+ font-weight: 400;
+ font-style: normal;
+}
+
+.btn-saiba {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffa800;
+color: white;
+   border: solid 2px;
+   height: 75%;
+   width: 90%;
+}
+
+.btn-saiba h5 {
+   color: white;
+   font-size: 150%;
+}
+
+.bordabotao {
+   margin-top: 5%;
+   height: 17%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffa800;
+   width: 15%;
+}
+
+
+.bannertext h4{
+   font-size: 300%;
+   margin: 0;
+}
+
+.bannertext h2{
+   font-size: 580%;
+
+}
+
+.bannertext h3{
+   font-size: 320%;
+}
+
+
+.bannertext h2,
+.bannertext h3 {
+   margin: 0; 
+   line-height: 1; 
+}
+/*fim banner */
+
+/*inicio promoçoes*/
+
+.promoçoes-mobile{
+   display: none;
+}
+
+.promoçoes-desktop {
+   background-image: url(img/bolobanner2.jpg);
+   background-color: rgba(210, 105, 30, 0.25);
+   flex-wrap: wrap;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 100%;
+   height: 500px;
+}
+
+.promoçao-junina{
+position: absolute;
+color: white;
+font-size: 50px;
+}
+
+.botao-promoçao{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffa800;
+   flex-wrap: wrap;
+   width: 200px;
+   height: 80px;
+   border: none;
+   margin-top: 300px;
+}
+
+.borda-botao-promoçao {
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: solid 1px;
+   border-color: white;
+   width: 95%;
+   height: 85%;
+}
+
+.aniversario, .casamento, .personalizado {
+   background-color: #ffa800;
+}
+
+.aniversario{
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+   position: absolute;
+   margin-bottom: 23%;
+   width: 22%;
+   height: 30%;
+   margin-right: 55%;
+}
+
+.texto-promoçao-aniversario, .texto-promoçao-casamento, .texto-promoçao-personalizado{
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   display: flex;
+   text-align: center;
+   border: solid 1px;
+   border-color: white;
+   width: 90%;
+   height: 85%; 
+   margin: 0; 
+   padding: 20px; 
+}
+
+.texto-promoçao-aniversario p, .texto-promoçao-casamento p, .texto-promoçao-personalizado p {
+   font-family: "Abel", sans-serif;
+   font-weight: 400;
+ font-style: normal;
+   margin: 5px 0;
+   line-height: 1; 
+   color: white;
+}
+
+.texto-promoçao-aniversario h4, .texto-promoçao-casamento h4, .texto-promoçao-personalizado h4 {
+   font-family: "Lalezar", system-ui;
+   font-weight: 400;
+ font-style: normal;
+ color: #2f160b;
+}
+
+.link-promoçoes {
+color: #2f160b;
+font-family: "Abel", sans-serif;
+   font-weight: 400;
+ font-style: normal;
+   margin-top: 10%;
+}
+
+.casamento{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   position: absolute;
+   margin-bottom: 23%;
+   width: 22%;
+   height: 30%;
+}
+
+.personalizado{
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+   position: absolute;
+   margin-bottom: 23%;
+   width: 22%;
+   height: 30%;
+   margin-left: 55%;
+}
+
+/*fim promoçoes*/
+
+h1 {
+   font-family: "Lalezar", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   color: #fff;
+}
+
+.menu {
+   display: none;
+   width: 45%;
+   height: 45%;
+   position: fixed;
+   background-color: rgba(0, 0, 0, 0.9);
+   top: 0;
+   right: 0;
+}
+
+.btn-close {
+   font-size: 2em;
+   color: #fff;
+   float: right;
+   cursor: pointer;
+   margin-right: 8%;
+}
+
+.menu ul {
+   width: 80%;
+   float: left;
+   text-align: center;
+   list-style: none;
+}
+
+.menu li {
+   padding: 1.5%;
+}
+
+.menu li a {
+   font-family: "Lalezar", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 1.2em;
+   color: #fff;
+   padding: 1.6% 6%;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.menu li a:hover {
+   border: 1px solid #ffa800;
+}
+
 /* FONTES E CONFIGURAÇÕES PADRÃO DO PROJETO */
 
 /* FONTES */
@@ -105,6 +500,7 @@
    top: 145px;
    left: 100px;
    opacity: 0.8; /* Opcional: ajuste da transparência para visualizar sobreposição */
+
 }
 
 /*footerdetop*/
@@ -230,14 +626,191 @@ margin-top: 2%;
 /*footerdetop*/
 
 /*--area mobile--*/ 
-@media screen and (max-width: 932px){
+@media screen and (max-width: 800px){
 
-   .footer-desktop, #desktop{
+/*ocutar itens desktop*/
+.footer-desktop, #desktop, .promoçoes-desktop{
       display: none;
    }
-   .footer-mobile, .mobile{
-      display: block;
+/*ocutar itens desktop*/
+
+.footer-mobile, .mobile{
+   display: block;
+}
+/*banner*/
+.banner {
+   display: flex;
+   background-image: url(img/banner.jpg);
+   height: 350px;
+   
+}
+
+.bannertext{ 
+   height: 500px;
+   width: 100%;
+   font-size: 100%;
+   margin-left: 10%;
+   margin-top: 10%;
+}
+
+.bannertext h4{
+   color: #ffa800;
+   font-family: "Pacifico", cursive;
+   font-weight: 400;
+ font-style: normal;
+}
+
+.bannertext h2, h3{
+   color: white;
+   font-family: "Lalezar", system-ui;
+ font-weight: 400;
+ font-style: normal;
+}
+
+.btn-saiba{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffa800;
+color: white;
+   border: solid 2px;
+   height: 75%;
+   width: 90%;
+}
+
+.btn-saiba h5 {
+   color: white;
+   font-size: 150%;
+}
+
+.bordabotao {
+   margin-top: 10%;
+   height: 13%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffa800;
+   width: 38%;
+}
+
+
+.bannertext h4{
+   font-size: 160%;
+   margin: 0;
+}
+
+.bannertext h2{
+   font-size: 320%;
+
+}
+
+.bannertext h3{
+   font-size: 190%;
+}
+
+
+.bannertext h2,
+.bannertext h3 {
+   margin: 0; 
+   line-height: 1; 
+}
+/*fimbanner*/
+
+/*promoçoes-mobile*/
+.promoçao-junina-mobile{
+   font-size: 110%;
+   color: white;
+  
+}
+
+.promoçoes-mobile {
+   background-image: url(img/bolobanner2.jpg);
+   background-color: #514338;
+   row-gap: 30px;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   height: 1200px;
+}
+
+.blocos-promoçoes {
+    background-color:#ffa800;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.texto-promoçao-aniversario-mobile, .texto-promoçao-casamento-mobile, .texto-promoçao-personalizado-mobile {
+border: solid;
+border: color;
+border-color: aqua;
+justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   display: flex;
+   text-align: center;
+   border: solid 1px;
+   border-color: white;
+   width: 90%;
+   height: 90%; }
+
+   .texto-promoçao-aniversario-mobile p, .texto-promoçao-casamento-mobile p, .texto-promoçao-personalizado-mobile p {
+      font-family: "Abel", sans-serif;
+      font-weight: 400;
+    font-style: normal;
+      margin: 5px 0;
+      line-height: 1; 
+      color: white;
    }
+   
+   .texto-promoçao-aniversario-mobile h4, .texto-promoçao-casamento-mobile h4, .texto-promoçao-personalizado-mobile h4 {
+      font-family: "Lalezar", system-ui;
+      font-weight: 400;
+    font-style: normal;
+    color: #2f160b;
+    font-size: 120%;
+   }
+
+   .link-promoçoes-mobile{
+      color: #2f160b;
+font-family: "Abel", sans-serif;
+   font-weight: 400;
+ font-style: normal;
+   margin-top: 20%;
+   font-size: 80%;
+   }
+    
+   .botao-promoçao-mobile{
+      width: 150px;
+      height: 60px;
+      background-color: #ffa800;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+   }
+
+
+   .borda-botao-promoçao-mobile{
+border: solid 1px;
+border-color: white;
+width: 90%;
+height: 70%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+   }
+   
+   .borda-botao-promoçao-mobile h4{
+      font-size: 110%;
+   }
+/*fim-promoçoes-mobile*/
+
 
    .logo {
       width: 80px;
@@ -327,108 +900,106 @@ margin-top: 2%;
    .menu li a:hover {
       border: 1px solid #ffa800;
    }
- /*--footer--*/ 
+
+   /*--footer--*/ 
  
    .logo2 {
-   width: 90px;
-   height: 90px; 
-   }
-
+      width: 90px;
+      height: 90px; 
+      }
    
-   .bloco1-footer-mobile { 
-   background-color: #ffa800; 
-   display: flex;  
-   justify-content: center;
-   align-items: center;
-   width: 100%; 
-   height: 280px;
-   } 
-.borda-bloco1 {
-   border: solid;
-   border-color: white;
-   width: 95%;
-   height: 90%;
-}
-.logo-texto-rodape{
-   width: 70%;
-   float: inline-end;
-   margin-top: -10%;
-   color: white;
-   position: absolute;
-   margin-left: 25%;
-}
-
-.logo-texto-rodape h2{
-   text-align: center;
-font-size: 150%;
-font-family: "Lalezar", system-ui;
-      font-weight: 400;
-      font-style: normal;
-}
-
-.borda-bloco1 p{
-   color: white;
-   text-align: center;
-   width: 100%;
-
-   margin-left: 5%;
-padding: 30px;
-font-family: "abel", system-ui;
-      font-weight: 400;
-      font-style: normal;
-      font-weight: bolder;
-}
-
-.rodape2 h2{
- color: #ffa800;
- font-family: "Lalezar", system-ui;
-      font-weight: 400;
-      font-style: normal;
-}
-.rodape2 p{
-   font-family: "abel", system-ui;
-      font-weight: 400;
-      font-style: normal;
-   color: white;
-   margin: 5px 0;
-
-}
-
-
-
-.rodape3 a{
-   font-family: "abel", system-ui;
-      font-weight: 400;
-      font-style: normal;
-color: white;
-   margin-left: 7px;
-   text-decoration: none;
-}
-
-.rodape3 h2{
+      
+      .bloco1-footer-mobile { 
+      background-color: #ffa800; 
+      display: flex;  
+      justify-content: center;
+      align-items: center;
+      width: 100%; 
+      height: 280px;
+      } 
+   .borda-bloco1 {
+      border: solid;
+      border-color: white;
+      width: 95%;
+      height: 90%;
+   }
+   .logo-texto-rodape{
+      width: 70%;
+      float: inline-end;
+      margin-top: -10%;
+      color: white;
+      position: absolute;
+      margin-left: 25%;
+   }
+   
+   .logo-texto-rodape h2{
+      text-align: center;
+   font-size: 150%;
    font-family: "Lalezar", system-ui;
-      font-weight: 400;
-      font-style: normal;
-   color: #ffa800;
-   margin-left: 7px;
-}
-
-   .footer-mobile {
+         font-weight: 400;
+         font-style: normal;
+   }
+   
+   .borda-bloco1 p{
+      color: white;
+      text-align: center;
+      width: 100%;
+      margin-left: 5%;
+   padding: 30px;
+   font-family: "abel", system-ui;
+         font-weight: 400;
+         font-style: normal;
+         font-weight: bolder;
+   }
+   
+   .rodape2 h2{
+    color: #ffa800;
+    font-family: "Lalezar", system-ui;
+         font-weight: 400;
+         font-style: normal;
+   }
+   .rodape2 p{
+      font-family: "abel", system-ui;
+         font-weight: 400;
+         font-style: normal;
+      color: white;
+      margin: 5px 0;
+   
+   }
+   
+   
+   
+   .rodape3 a{
+      font-family: "abel", system-ui;
+         font-weight: 400;
+         font-style: normal;
+   color: white;
+      margin-left: 7px;
+      text-decoration: none;
+   }
+   
+   .rodape3 h2{
+      font-family: "Lalezar", system-ui;
+         font-weight: 400;
+         font-style: normal;
+      color: #ffa800;
+      margin-left: 7px;
+   }
+   
+      .footer-mobile {
+         background-color: #2f160b;
+         width: 100%;
+         height: 750px;
+      }
+   
+    .bordinha{
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      font-size: 70%;
       background-color: #2f160b;
       width: 100%;
-      height: 750px;
-   }
-
- .bordinha{
-   display: flex; 
-   justify-content: center;
-   align-items: center;
-   font-size: 70%;
-   background-color: #2f160b;
-   width: 100%;
-   height:60px ;
- }
-   
-   
+      height:60px ;
+    }
 
 }
