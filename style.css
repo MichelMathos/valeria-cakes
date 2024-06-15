@@ -503,15 +503,26 @@ h1 {
    margin-bottom: 5%;
 }
 
-.criancas-textos coluna-img {
-   display: flex;
+.sobre-nos {
+   display: grid;
 }
 
-.imagem-crianca {
+.criancas-textos coluna-img {
+   grid-template-columns: 50% 50%;
+}
+
+.coluna-crianca {
+   display: flex;
+   scale: 75%;
+   margin-right: 80%;
+}
+
+.iimagem-crianca {
    scale: 50%;
 }
 
 .titulo-texto {
+   disp
 }
 
 /*footerdetop*/
