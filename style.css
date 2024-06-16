@@ -413,6 +413,11 @@ h1 {
    font-style: normal;
 }
 
+.peso-200 {
+   font-weight: 200;
+   font-style: normal;
+}
+
 /* TAMANHOS DAS FONTES */
 .tamanho-20 {
    font-size: 20px;
@@ -474,7 +479,6 @@ h1 {
    background-color: #2f160b;
 }
 
-/* CONFIGURAÇÃO CABEÇALHOS  */
 .container-2,
 .container-3 {
    margin: 0;
@@ -485,9 +489,10 @@ h1 {
    padding-bottom: 1%;
 }
 
+/* Cabeçalho do container */
 .titulo {
    text-align: center;
-   margin-bottom: -4rem;
+   margin-bottom: -6rem;
 }
 
 .sub-titulo {
@@ -502,7 +507,8 @@ h1 {
 }
 
 .rolo-macarrao img {
-   max-width: 20%;
+   max-width: 15%;
+   width: auto;
    height: auto;
    margin-top: 1%;
    margin-bottom: 5%;
@@ -512,10 +518,30 @@ h1 {
    display: flex;
    flex-direction: row;
    justify-content: center;
+   grid-template-columns: 40% 60%;
+}
+
+.coluna-imagem {
+   flex-direction: column;
+   margin-top: -12rem;
+}
+
+.coluna-textos {
+   flex-direction: column;
+   margin-top: -4rem;
 }
 
 .linha-imagem-textos .coluna-imagem .imagem-criancas {
-   scale: 75%;
+   scale: 60%;
+}
+
+.imagem-texto {
+   flex-direction: row;
+}
+
+.coluna-1,
+.coluna-2 {
+   flex-direction: column;
 }
 
 /*footerdetop*/
