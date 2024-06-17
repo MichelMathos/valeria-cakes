@@ -479,28 +479,40 @@ h1 {
    background-color: #2f160b;
 }
 
-.retangulo {
-   position: absolute;
+/* CONFIGURAÇÃO CABEÇALHOS  */
+.titulo-subtitulo {
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+}
+.titulo-subtitulo .titulo {
+   text-align: center;
 }
 
-/* Primeiro retângulo */
-.retangulo1 {
-   width: 10rem;
-   height: 5px;
-   background-color: blue;
-   top: 150px;
-   left: 500px;
+.titulo-subtitulo .sub-titulo {
+   text-align: center;
+   margin-top: -7%;
 }
 
-/* Segundo retângulo */
-.retangulo2 {
-   width: 15rem;
-   height: 15px;
-   background-color: red;
-   top: 145px;
-   left: 100px;
-   opacity: 0.8; /* Opcional: ajuste da transparência para visualizar sobreposição */
+.titulo-subtitulo .rolo-macarrao {
+   display: flex;
+   justify-content: center;
+   margin-top: -6%;
 
+}
+
+
+
+.criancas-textos coluna-img {
+   display: flex;
+}
+
+.imagem-crianca {
+   scale: 50%;
+}
+
+.titulo-texto {
 }
 
 /*footerdetop*/
