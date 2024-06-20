@@ -419,6 +419,10 @@ h1 {
 }
 
 /* TAMANHOS DAS FONTES */
+.tamanho-15 {
+   font-size: 15px;
+}
+
 .tamanho-20 {
    font-size: 20px;
 }
@@ -479,31 +483,8 @@ h1 {
    background-color: #2f160b;
 }
 
-/* CONFIGURAÇÃO CABEÇALHOS  */
-.titulo-subtitulo {
-   display: flex;
-   flex-direction: column;
-   margin: 0;
-   padding: 0;
-}
-.titulo-subtitulo .titulo {
-   text-align: center;
-}
 
-.titulo-subtitulo .sub-titulo {
-   text-align: center;
-   margin-top: -7%;
-}
-
-.titulo-subtitulo .rolo-macarrao {
-   display: flex;
-   justify-content: center;
-   margin-top: -6%;
-
-}
-
-
-
+/* CONTAINER #2 - SOBRE NÓS - CONFIGURAÇÃO GERAL  */
 .criancas-textos coluna-img {
    display: flex;
 }
@@ -514,6 +495,66 @@ h1 {
 
 .titulo-texto {
 }
+
+
+/* CONTAINER #5 - EQUIPE - CONFIGURAÇÃO GERAL  */
+.container-5 {
+   width: 100%;
+   padding-bottom: 2%;
+}
+.introducao {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 2%;
+   height: 180px;
+}
+
+.titulo-subtitulo {
+   text-align: center;
+
+   margin: 0;
+}
+
+.rolo-macarrao {
+   width: 15%;
+   height: auto;
+   margin-bottom: 5%;
+}
+
+.membros {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   margin-top: 0px;
+}
+
+.membros .membro {
+   width: 30%;
+   margin: 2%;
+   position: relative;
+}
+
+.membros .membro .img-membro {
+   width: 100%;
+   height: auto;
+   left: 0px;
+}
+
+.membros .membro .caixa-marrom {
+   margin-top: -5px;
+   padding: 3%;
+}
+
+.membros .membro .caixa-marrom .contorno {
+   justify-content: center;
+   text-align: center;
+   border: 3px solid;
+   margin: 1%;
+}
+
+
+
 
 /*footerdetop*/
 .area-footer-desktop {
