@@ -483,25 +483,7 @@ h1 {
    background-color: #2f160b;
 }
 
-
-/* CONTAINER #2 - SOBRE NÓS - CONFIGURAÇÃO GERAL  */
-.criancas-textos coluna-img {
-   display: flex;
-}
-
-.imagem-crianca {
-   scale: 50%;
-}
-
-.titulo-texto {
-}
-
-
-/* CONTAINER #5 - EQUIPE - CONFIGURAÇÃO GERAL  */
-.container-5 {
-   width: 100%;
-   padding-bottom: 2%;
-}
+/* CONTAINER #2, #3 E #5 - TÍTULO E SUB-TÍTULO PADRÃO */
 .introducao {
    display: flex;
    flex-direction: column;
@@ -512,7 +494,6 @@ h1 {
 
 .titulo-subtitulo {
    text-align: center;
-
    margin: 0;
 }
 
@@ -520,6 +501,71 @@ h1 {
    width: 15%;
    height: auto;
    margin-bottom: 5%;
+}
+
+/* CONTAINER #2 - SOBRE NÓS - CONFIGURAÇÃO GERAL  */
+.criancas-textos coluna-img {
+   display: flex;
+}
+
+.imagem-crianca {
+   scale: 50%;
+}
+
+/* CONTAINER #3 - PRODUTOS E PREÇOS - CONFIGURAÇÃO GERAL  */
+.container-3 {
+   width: 100%;
+   padding-bottom: 5%;
+}
+
+.prod-prec-linha {
+   padding-top: 1%;
+   display: flex;
+   flex-direction: row;
+}
+
+.caixa-prod {
+   display: flex;
+   flex-direction: row;
+   height: 120px;
+   width: auto;
+}
+
+.caixa-prod .bolo-preco {
+   display: flex;
+   flex-direction: column;
+   position: relative; 
+}
+
+.bolo-preco .bolo-img {
+   width: 50%;
+   height: auto;
+   /* width: auto;
+   height: 120px;
+   position: relative;*/
+}
+
+.bolo-preco .preco {
+   position: absolute;
+   bottom: 0;
+   width: 50%;
+   text-align: center;
+   padding: 1px;
+   /*width: auto;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   position: absolute;*/
+}
+
+.caixa-prod .contorno {
+   margin: 2% 3% 2% 3%;
+}
+
+/* CONTAINER #5 - EQUIPE - CONFIGURAÇÃO GERAL  */
+.container-5 {
+   width: 100%;
+   padding-bottom: 2%;
 }
 
 .membros {
@@ -546,15 +592,12 @@ h1 {
    padding: 3%;
 }
 
-.membros .membro .caixa-marrom .contorno {
+.contorno {
    justify-content: center;
    text-align: center;
    border: 3px solid;
    margin: 1%;
 }
-
-
-
 
 /*footerdetop*/
 .area-footer-desktop {
