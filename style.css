@@ -591,7 +591,6 @@ h1 {
    flex-direction: row;
    height: 120px;
    width: auto;
-
 }
 
 .caixa-prod .bolo-preco {
@@ -608,7 +607,7 @@ h1 {
 .bolo-preco .preco {
    position: absolute;
    bottom: 0;
-   width: 49%;
+   width: 50%;
    text-align: center;
    padding: 1px;
 }
