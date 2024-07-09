@@ -446,6 +446,10 @@ h1 {
    text-align: justify;
 }
 
+.centralizar {
+   text-align: center;
+}
+
 .texto-laranja {
    color: #ffa800;
 }
@@ -590,34 +594,35 @@ h1 {
 }
 
 .caixa-prod {
-   margin: 0% 3% 1% 3%;
+   margin: 0% 3% 0% 3%;
+   /*display: flex;
+   flex-direction: row;*/
+   display: grid;
+   grid-template-columns: 200px auto;
+
    height: 10%;
    width: auto;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-end;
-   align-items: center;
-   position: relative;
 }
 
-.bolo-preco{
+.caixa-prod .bolo-preco{
+
+ /*  display: flex;
    flex-direction: column;
-   justify-content: flex-end;
-   align-items: center;
-   position: relative;  
+   justify-content: right;
+   align-items: end;
+   position: relative;*/  
 }
-.bolo-preco .bolo-img {
+
+.caixa-prod .bolo-preco .bolo-img {
    width: 50%;
    height: auto;
 }
 
 .bolo-preco .preco {
    display: flex;
-   position: absolute;
    justify-content: center;
-   bottom: 0;
+   margin-top: -2%;
    width: 50%;
-   padding: 1px;
 }
 
 .caixa-prod .contorno {
