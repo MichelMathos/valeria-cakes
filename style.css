@@ -586,55 +586,59 @@ h1 {
 }
 
 /* CONTAINER #3 - PRODUTOS E PREÇOS - CONFIGURAÇÃO GERAL  */
-.prod-prec-linha {
-   padding-top: 1%;
-   display: flex;
-   flex-direction: row;
+.produtos-precos {
+   display: grid;
    justify-content: center;
-}
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(3, 1fr);
+   gap: 2%; /* espaçamento entre os itens*/
+   padding-left:10%;
+   padding-right:10%;
+ }
+
+ .bolo-1, .bolo-2, .bolo-3, .bolo-4, .bolo-5, .bolo-6 {
+
+ }
+
 
 .caixa-prod {
-   margin: 0% 3% 0% 3%;
-   /*display: flex;
-   flex-direction: row;*/
-   display: grid;
-   grid-template-columns: 200px auto;
-
-   height: 10%;
-   width: auto;
-}
-
-.caixa-prod .bolo-preco{
-
- /*  display: flex;
-   flex-direction: column;
-   justify-content: right;
-   align-items: end;
-   position: relative;*/  
-}
-
-.caixa-prod .bolo-preco .bolo-img {
-   width: 50%;
-   height: auto;
-}
-
-.bolo-preco .preco {
+   margin:2%;
    display: flex;
-   justify-content: center;
-   margin-top: -2%;
-   width: 50%;
-}
-
-.caixa-prod .contorno {
-   margin: 2% 2% 2% 2%;
+   flex-direction:row;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 8rem;
    width: auto;
-   height: auto;
-   position: inherit;
 }
 
-.caixa-prod .contorno .descricao-bolo {
+.bolo-preco{
+width:25%;
+ display: flex;
+ flex-direction: column;
+ justify-content: left;
+ position: relative;
+}
+
+.bolo-img {
+   width: 100%;
+
+}
+
+.preco {
+   width: 100%;
+   position:absolute;
+   bottom:0%;
+}
+
+.contorno {
+   width:70%;
+   height:6rem;
+   margin:2%;
+}
+
+.descricao-bolo {
    text-align: left;
-   margin: 2% 2% 2% 2%;
+   margin: 2%;
 }
 
 /* CONTAINER #5 - EQUIPE - CONFIGURAÇÃO GERAL  */
