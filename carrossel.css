@@ -1,0 +1,38 @@
+
+.carousel-container {
+    width: 70%;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 33.33%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    opacity: 0.5;
+    transform: scale(0.8);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.slide.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+@media (max-width: 768px) {
+    .slide {
+        min-width: 100%;
+        margin: 0;
+    }
+}
