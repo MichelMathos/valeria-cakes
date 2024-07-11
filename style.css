@@ -595,6 +595,7 @@ h1 {
    padding-left:10%;
    padding-right:10%;
  }
+
 /*
  .bolo-1, .bolo-2, .bolo-3, .bolo-4, .bolo-5, .bolo-6 {
 
@@ -634,6 +635,9 @@ width:25%;
    width:70%;
    height:6rem;
    margin:2%;
+   justify-content: center;
+   text-align: center;
+   border: 3px solid;
 }
 
 .descricao-bolo {
@@ -666,7 +670,7 @@ width:25%;
    padding: 3%;
 }
 
-.contorno {
+.contorno-membro {
    justify-content: center;
    text-align: center;
    border: 3px solid;
