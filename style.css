@@ -488,7 +488,6 @@ h1 {
 }
 
 /* CONTAINER #2, #3 E #5 - DIMENSÕES PADRÕES */
-
 .container-2,  .container-5 {
    width: 100%;
    padding: 0% 0% 2% 0%;
@@ -584,6 +583,7 @@ h1 {
 .texto-descricao {
    text-align: justify;
 }
+/* FIM DO CONTAINER #2  */
 
 /* CONTAINER #3 - PRODUTOS E PREÇOS - CONFIGURAÇÃO GERAL  */
 .produtos-precos {
@@ -595,12 +595,6 @@ h1 {
    padding-left:10%;
    padding-right:10%;
  }
-
-/*
- .bolo-1, .bolo-2, .bolo-3, .bolo-4, .bolo-5, .bolo-6 {
-
- }
-*/
 
 .caixa-prod {
    margin:2%;
@@ -622,7 +616,6 @@ width:25%;
 
 .bolo-img {
    width: 100%;
-
 }
 
 .preco {
@@ -644,6 +637,7 @@ width:25%;
    text-align: left;
    margin: 2%;
 }
+/* FIM DO CONTAINER #3  */
 
 /* CONTAINER #5 - EQUIPE - CONFIGURAÇÃO GERAL  */
 .membros {
@@ -676,6 +670,7 @@ width:25%;
    border: 3px solid;
    margin: 1%;
 }
+/* FIM DO CONTAINER #5  */
 
 /*footerdetop*/
 .area-footer-desktop {
@@ -801,8 +796,9 @@ width:25%;
 
 /*footerdetop*/
 
-/*--area mobile--*/
+/*-- Área Mobile Landscape--*/
 @media screen and (max-width: 800px) {
+
    /*ocutar itens desktop*/
    .footer-desktop,
    #desktop,
@@ -1176,4 +1172,195 @@ width:25%;
       width: 100%;
       height: 60px;
    }
+}
+
+@media screen and (max-width: 932px) {
+
+   /* CONTAINER #2, #3 E #5 - DIMENSÕES PADRÕES */
+
+   .container-2,  .container-5 {
+      width: 100%;
+      padding: 0% 0% 2% 0%;
+   }
+
+   .container-3 {
+      margin-top: -5%;
+      padding-bottom: 5%;
+   }
+
+   /* CONTAINER #2, #3 E #5 - TÍTULO E SUB-TÍTULO PADRÃO */
+   .introducao {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2% 0% 0% 0%;
+      height: 150px;
+      width: auto;
+   }
+
+   .titulo-subtitulo .fonte-pacifico{
+      font-size: 25px;
+   }
+
+   .titulo-subtitulo .fonte-lalezar{
+      font-size: 35px;
+   }
+
+   .rolo-macarrao {
+      width: 20%;
+      height: auto;
+   }
+
+   /* CONTAINER #2 - SOBRE NÓS - CONFIGURAÇÃO GERAL  */
+   .conteudo-imagem-textos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .conteudo-imagem-textos .imagem-textos {
+      display:flex;
+      flex-wrap: wrap;
+   }
+
+   .coluna-textos {
+      width: 45%;
+      height: auto;
+   }
+
+   .coluna-textos .titulo-inicial {
+      margin-top: -1%;
+   }
+
+   .texto-inicial {
+      width: 95%;
+   }
+
+   .imagem-textos .coluna-imagem {
+      display: flex; 
+      height: 600px;
+      width: 600px;
+      margin-right: 2%;
+   }
+
+   .imagem-criancas {
+      width: auto;
+      height: 500px;
+      justify-content: flex-end;
+   }
+
+   .imagem-texto {
+      display: flex;
+      flex-direction: row;
+   }
+
+   .imagem-quadrada {
+      height: 100px;
+      width: auto;
+   }
+
+   .coluna-descricao {
+      display: flexbox;
+      width: 50%;
+      height: auto;
+      justify-content: flex-end;
+      margin: 7% 2% 0% 0%;
+   }
+
+   .imagem-texto {
+      display: flex;
+      flex-direction: row;
+   }
+
+   .texto-descricao {
+      text-align: justify;
+   }
+   /* FIM DO CONTAINER #2  */
+
+   /* CONTAINER #3 - PRODUTOS E PREÇOS - CONFIGURAÇÃO GERAL  */
+   .produtos-precos {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      gap: 2%; /* espaçamento entre os itens*/
+      padding-left:10%;
+      padding-right:10%;
+   }
+
+   .caixa-prod {
+      margin:2%;
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 8rem;
+      width: auto;
+   }
+
+   .bolo-preco{
+   width:25%;
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   position: relative;
+   }
+
+   .bolo-img {
+      width: 100%;
+   }
+
+   .preco {
+      width: 100%;
+      position:absolute;
+      bottom:0%;
+   }
+
+   .contorno {
+      width:70%;
+      height:6rem;
+      margin:2%;
+      justify-content: center;
+      text-align: center;
+      border: 3px solid;
+   }
+
+   .descricao-bolo {
+      text-align: left;
+      margin: 2%;
+   }
+   /* FIM DO CONTAINER #3  */
+
+   /* CONTAINER #5 - EQUIPE - CONFIGURAÇÃO GERAL  */
+   .membros {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin-top: 0px;
+   }
+
+   .membros .membro {
+      width: 30%;
+      margin: 2%;
+      position: relative;
+   }
+
+   .membros .membro .img-membro {
+      width: 100%;
+      height: auto;
+      left: 0px;
+   }
+
+   .membros .membro .caixa-marrom {
+      margin-top: -5px;
+      padding: 3%;
+   }
+
+   .contorno-membro {
+      justify-content: center;
+      text-align: center;
+      border: 3px solid;
+      margin: 1%;
+   }
+   /* FIM DO CONTAINER #5  */
 }
